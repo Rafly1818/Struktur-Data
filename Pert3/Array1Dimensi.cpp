@@ -24,7 +24,7 @@ void searchData1D(int arr[], int size, int target) {
 }
 
 int main() {
-cout << "Latihan 3 Array 1 Dimensi " << end; << endl;
+  cout << "Latihan 3 Array 1 Dimensi " << endl << endl;
   int arr[] = {12, 14, 15, 12, 5}; 
   int size = sizeof(arr) / sizeof(arr[0]); 
   int target = 12; 
