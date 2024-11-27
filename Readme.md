@@ -135,3 +135,21 @@ Jika Anda ingin mempelajari lebih lanjut tentang penggunaan C++ di WSL atau baga
 4. [Remote Development menggunakan VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
 
 Dengan mengikuti langkah-langkah di atas, Anda seharusnya dapat memulai pengembangan C++ di WSL menggunakan Visual Studio Code dengan lancar. Semoga panduan ini bermanfaat!
+
+<h3 align="left">Socials</h3>
+<p align="center"> 
+  <a href="https://www.github.com/Rafly1818" target="_blank" rel="noreferrer"> 
+    <picture> 
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> 
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> 
+      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" /> 
+    </picture> 
+  </a> 
+  <a href="http://www.instagram.com/flyyr_" target="_blank" rel="noreferrer"> 
+    <picture> 
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" /> 
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /> 
+      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" alt="Instagram" /> 
+    </picture> 
+  </a>
+</p>
