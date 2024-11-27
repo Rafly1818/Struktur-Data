@@ -28,42 +28,42 @@ Langsung buka WSL Ubuntu dan ikuti langkah-langkah berikut:
 ## 2. Instalasi Visual Studio Code
 
 1. **Download dan Instal VS Code**:
-   Jika Anda belum memiliki Visual Studio Code, unduh dan instal dari [situs resmi Visual Studio Code](https://code.visualstudio.com/).
+   Jika Anda belum memiliki Visual Studio Code, unduh dan instal dari situs resmi [Visual Studio Code](https://code.visualstudio.com/).
 
 2. **Instal Extension WSL di VS Code**:
-   1. Buka Visual Studio Code.
-   2. Buka **Extensions** dengan menekan `Ctrl + Shift + X`.
-   3. Cari extension **Remote - WSL** oleh Microsoft.
-   4. Klik **Install** untuk menginstal extension ini.
+   - Buka Visual Studio Code.
+   - Buka **Extensions** dengan menekan `Ctrl + Shift + X`.
+   - Cari extension **Remote - WSL** oleh Microsoft.
+   - Klik **Install** untuk menginstal extension ini.
 
 3. **Buka VS Code dengan WSL**:
-   1. Buka terminal WSL, kemudian navigasi ke folder proyek Anda:
+   - Buka terminal WSL, kemudian navigasi ke folder proyek Anda:
       ```bash
       cd /path/to/your/project
       ```
-   2. Jalankan perintah berikut untuk membuka folder di VS Code:
+   - Jalankan perintah berikut untuk membuka folder di VS Code:
       ```bash
       code .
       ```
-   3. VS Code akan terbuka dalam mode WSL.
+   - VS Code akan terbuka dalam mode WSL.
 
 
 ## 3. Konfigurasi Visual Studio Code untuk C++
 
 1. **Instal Extension C++**:
-   1. Buka **Extensions** di Visual Studio Code dengan menekan `Ctrl + Shift + X`.
-   2. Cari extension **C/C++** oleh Microsoft.
-   3. Klik **Install**.
+   - Buka **Extensions** di Visual Studio Code dengan menekan `Ctrl + Shift + X`.
+   - Cari extension **C/C++** oleh Microsoft.
+   - Klik **Install**.
 
 2. **Instalasi Code Runner (Opsional)**:
    Code Runner memudahkan untuk menjalankan kode dengan cepat di VS Code.
-   1. Cari **Code Runner** di panel Extensions.
-   2. Klik **Install** untuk menginstalnya.
+   - Cari **Code Runner** di panel Extensions.
+   - Klik **Install** untuk menginstalnya.
 
 3. **Setup Build dan Debug untuk C++**:
-   1. Buka **Command Palette** dengan menekan `Ctrl + Shift + P`.
-   2. Ketik **C++**, lalu pilih **C++: Build and debug active file**.
-   3. Pilih `g++` sebagai compiler saat diminta.
+   - Buka **Command Palette** dengan menekan `Ctrl + Shift + P`.
+   - Ketik **C++**, lalu pilih **C++: Build and debug active file**.
+   - Pilih `g++` sebagai compiler saat diminta.
 
 
 ## 4. Menjalankan Program C++
@@ -109,21 +109,21 @@ Jika Anda mengalami masalah saat menjalankan program C++, berikut beberapa langk
    ```
 3. **Masalah dengan Build dan Debug di VS Code**:
    Jika terjadi masalah ketika Anda mencoba build atau debug di VS Code, lakukan hal berikut:
-   1. Pastikan Anda telah memilih C++: **Build and debug active file** melalui **Command Palette** `Ctrl + Shift + P`.
-   2. Periksa file konfigurasi `tasks.json` dan `launch.json` di dalam folder `.vscode`, dan pastikan konfigurasi sesuai dengan sistem Anda.
-   3. Jika tetap bermasalah, Anda bisa mencoba menghapus file konfigurasi tersebut dan membuatnya ulang dengan menggunakan **C++: Build and debug active file**.
+   - Pastikan Anda telah memilih C++: **Build and debug active file** melalui **Command Palette** `Ctrl + Shift + P`.
+   - Periksa file konfigurasi `tasks.json` dan `launch.json` di dalam folder `.vscode`, dan pastikan konfigurasi sesuai dengan sistem Anda.
+   - Jika tetap bermasalah, Anda bisa mencoba menghapus file konfigurasi tersebut dan membuatnya ulang dengan menggunakan **C++: Build and debug active file**.
 4. **Error pada Terminal WSL**:
    Jika ada pesan error di terminal saat menjalankan program:
-   1. **File tidak ditemukan**: Periksa kembali nama file atau path. Pastikan Anda berada di direktori yang benar.
-   2. **Permission denied**: Jika Anda tidak memiliki izin untuk menjalankan file, berikan izin dengan perintah:
+   - **File tidak ditemukan**: Periksa kembali nama file atau path. Pastikan Anda berada di direktori yang benar.
+   - **Permission denied**: Jika Anda tidak memiliki izin untuk menjalankan file, berikan izin dengan perintah:
    ```bash
    chmod +x program
    ```
 5. **Masalah dengan Code Runner**:
    Jika Anda tidak dapat menjalankan program menggunakan Code Runner:
-   1. Pastikan Code Runner sudah terinstal dan aktif.
-   2. Coba restart VS Code setelah instalasi extension.
-   3. Jika error terus muncul, buka Settings di VS Code, lalu cari "Code Runner" dan pastikan path eksekusi untuk C++ benar.
+   - Pastikan Code Runner sudah terinstal dan aktif.
+   - Coba restart VS Code setelah instalasi extension.
+   - Jika error terus muncul, buka Settings di VS Code, lalu cari "Code Runner" dan pastikan path eksekusi untuk C++ benar.
 
 
 ## 6. Dokumentasi Tambahan
