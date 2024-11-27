@@ -1,9 +1,0 @@
-{
-    "C_Cpp.default.compilerPath": "/root/Perkuliahan/Struktur-Data/.vscode/test.c++",
-    "files.associations": {
-        "iostream": "cpp",
-        "string.h": "c",
-        "ostream": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "disabled"
-}
