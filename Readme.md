@@ -68,26 +68,26 @@ Langsung buka WSL Ubuntu dan ikuti langkah-langkah berikut:
 
 ## 4. Menjalankan Program C++
 
-### 4.1. Kompilasi Manual melalui Terminal
-Untuk menjalankan program secara manual melalui terminal, lakukan langkah-langkah berikut:
-1. Buka terminal di Visual Studio Code atau WSL.
-2. Navigasikan ke direktori proyek Anda jika belum berada di sana:
+1. Kompilasi Manual melalui Terminal  
+   Untuk menjalankan program secara manual melalui terminal, lakukan langkah-langkah berikut:
+   1. Buka terminal di Visual Studio Code atau WSL.
+   2. Navigasikan ke direktori proyek Anda jika belum berada di sana:
    ```bash
    cd /path/to/your/project
    ```
-3. Masukkan perintah berikut untuk mengompilasi file C++::
+   3. Masukkan perintah berikut untuk mengompilasi file C++::
    ```bash
    g++ nama_program.cpp -o program
    ```
-4. Jalankan program yang telah dikompilasi:
+   4. Jalankan program yang telah dikompilasi:
    ```bash
    ./program
    ```
-### 4.2. Menjalankan Program Menggunakan Code Runner
-Jika Anda sudah menginstal **Code Runner**, Anda bisa menjalankan file C++ dengan mudah:
-1. Buka file `.cpp` yang ingin dijalankan di VS Code.
-2. Klik ikon **Run** di pojok kanan atas, atau tekan `Ctrl + Alt + N`.
-3. Output akan muncul di bagian terminal VS Code.
+2. Menjalankan Program Menggunakan Code Runner:  
+   Jika Anda sudah menginstal **Code Runner**, Anda bisa menjalankan file C++ dengan mudah:
+   1. Buka file `.cpp` yang ingin dijalankan di VS Code.
+   2. Klik ikon **Run** di pojok kanan atas, atau tekan `Ctrl + Alt + N`.
+   3. Output akan muncul di bagian terminal VS Code.
 
 
 ## 5. Troubleshooting
