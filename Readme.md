@@ -136,6 +136,8 @@ Jika Anda ingin mempelajari lebih lanjut tentang penggunaan C++ di WSL atau baga
 
 Dengan mengikuti langkah-langkah di atas, Anda seharusnya dapat memulai pengembangan C++ di WSL menggunakan Visual Studio Code dengan lancar. Semoga panduan ini bermanfaat!
 
+---
+
 <h3 align="left">Socials</h3>
 <p align="center"> 
   <a href="https://www.github.com/Rafly1818" target="_blank" rel="noreferrer"> 
