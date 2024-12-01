@@ -75,7 +75,7 @@ Langsung buka WSL Ubuntu dan ikuti langkah-langkah berikut:
    ```bash
    cd /path/to/your/project
    ```
-   - Masukkan perintah berikut untuk mengompilasi file C++::
+   - Masukkan perintah berikut untuk mengompilasi file C++:
    ```bash
    g++ nama_program.cpp -o program
    ```
@@ -83,6 +83,7 @@ Langsung buka WSL Ubuntu dan ikuti langkah-langkah berikut:
    ```bash
    ./program
    ```
+   
 2. Menjalankan Program Menggunakan Code Runner:  
    Jika Anda sudah menginstal **Code Runner**, Anda bisa menjalankan file C++ dengan mudah:
    - Buka file `.cpp` yang ingin dijalankan di VS Code.
@@ -91,8 +92,8 @@ Langsung buka WSL Ubuntu dan ikuti langkah-langkah berikut:
 
 
 ## 5. Troubleshooting
-
 Jika Anda mengalami masalah saat menjalankan program C++, berikut beberapa langkah yang dapat membantu:
+
 1. **Periksa Instalasi g++**:
    Pastikan `g++` sudah terinstal dengan benar dengan menjalankan:
    ```bash
@@ -102,16 +103,19 @@ Jika Anda mengalami masalah saat menjalankan program C++, berikut beberapa langk
    ```bash
    sudo apt install g++
    ```
+
 2. **Periksa Path Program**:
    Pastikan Anda berada di direktori yang benar saat menjalankan perintah kompilasi dan eksekusi. Gunakan perintah berikut untuk memverifikasi bahwa file .cpp Anda ada di direktori saat ini:
    ```bash
    ls
    ```
+
 3. **Masalah dengan Build dan Debug di VS Code**:
    Jika terjadi masalah ketika Anda mencoba build atau debug di VS Code, lakukan hal berikut:
    - Pastikan Anda telah memilih C++: **Build and debug active file** melalui **Command Palette** `Ctrl + Shift + P`.
    - Periksa file konfigurasi `tasks.json` dan `launch.json` di dalam folder `.vscode`, dan pastikan konfigurasi sesuai dengan sistem Anda.
    - Jika tetap bermasalah, Anda bisa mencoba menghapus file konfigurasi tersebut dan membuatnya ulang dengan menggunakan **C++: Build and debug active file**.
+
 4. **Error pada Terminal WSL**:
    Jika ada pesan error di terminal saat menjalankan program:
    - **File tidak ditemukan**: Periksa kembali nama file atau path. Pastikan Anda berada di direktori yang benar.
@@ -119,6 +123,7 @@ Jika Anda mengalami masalah saat menjalankan program C++, berikut beberapa langk
    ```bash
    chmod +x program
    ```
+
 5. **Masalah dengan Code Runner**:
    Jika Anda tidak dapat menjalankan program menggunakan Code Runner:
    - Pastikan Code Runner sudah terinstal dan aktif.
@@ -129,6 +134,7 @@ Jika Anda mengalami masalah saat menjalankan program C++, berikut beberapa langk
 ## 6. Dokumentasi Tambahan
 
 Jika Anda ingin mempelajari lebih lanjut tentang penggunaan C++ di WSL atau bagaimana mengoptimalkan penggunaan VS Code untuk pengembangan, berikut beberapa dokumentasi yang berguna:
+
 1. [Dokumentasi resmi WSL di Microsoft](https://learn.microsoft.com/en-us/windows/wsl)
 2. [Dokumentasi g++ - GCC Official](https://gcc.gnu.org/onlinedocs/)
 3. [Dokumentasu resmi Visual Studio Code](https://code.visualstudio.com/docs)
